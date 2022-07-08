@@ -140,10 +140,10 @@ def progressbar():
 
 st.title('Sentiment Analysis App')
 st.write('Performing Sentiment Analysis')
+progressbar()
+st.image('gan_images/1.png')
 
-if (st.sidebar.button('Predict Sentiment')):
-    progressbar()
-    st.image('gan_images/1.png')
 
+    
 
 
