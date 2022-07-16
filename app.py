@@ -138,8 +138,8 @@ def progressbar():
         time.sleep(0.01)
         my_bar.progress(percent_complete + 1)
 
-st.title('Sentiment Analysis App')
-st.write('Performing Sentiment Analysis')
+st.title('GANs App')
+st.write('Displaying Images')
 progressbar()
 st.image('gan_images/1.png')
 
